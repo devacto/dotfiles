@@ -5,4 +5,7 @@ Dotfiles
 * Square's maximum-awesome configuration
 * Oh-My-ZSH configuration
 
-An installation script will be written to make installation easier.
+Things that need to be done
+* Add installation script to make installation easier.
+* Add gitmodule [robbyrussell/oh-my-zsh] (https://github.com/robbyrussell/oh-my-zsh)
+* Add gitmodule [square/maximum-awesome] (https://github.com/square/maximum-awesome)

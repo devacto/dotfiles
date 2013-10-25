@@ -4,9 +4,6 @@
 # Reload .zshrc
 alias reload=". /Users/victor/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
-# Test
-alias echo-name="echo \"name\""
-
 # Git Commands
 alias gs='git status'
 alias gc='git commit'

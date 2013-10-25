@@ -1,0 +1,30 @@
+# ZSH and Git aliases
+# Victor Wibisono, October 2013
+
+# Reload .zshrc
+alias reload=". /Users/victor/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+
+# Git Commands
+alias gs='git status'
+alias gc='git commit'
+alias gl='git log'
+alias ga='git add'
+alias gco='git checkout'
+alias gpom='git push origin master'
+
+# Show or hide hidden files
+alias show-hidden-files='defaults write com.apple.finder AppleShowAllFiles TRUE'
+alias hide-hidden-files='defaults write com.apple.finder AppleShowAllFiles FALSE'
+
+# Project aliases
+
+# Alias to this file
+alias -g dotfiles='/Users/victor/Developer/Codes/Dotfiles'
+alias -g dotfiles-aliases='/Users/victor/Developer/Codes/Dotfiles/zsh/aliases'
+
+# iOS
+alias -g ios-fontviewer='/Users/victor/Developer/Codes/iOS/Tests/FontViewer'
+alias -g ios-greenkey='/Users/victor/Developer/Codes/iOS/Production/Greenkey'
+
+# Android
+alias -g android-criminalintent='/Users/victor/Developer/Codes/Android/Tests/CriminalIntent'

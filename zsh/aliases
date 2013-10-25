@@ -4,13 +4,16 @@
 # Reload .zshrc
 alias reload=". /Users/victor/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
+# Test
+alias echo-name="echo \"name\""
+
 # Git Commands
 alias gs='git status'
 alias gc='git commit'
 alias gl='git log'
 alias ga='git add'
 alias gco='git checkout'
-alias gcam="git commit -am \"Modified files.\""
+alias gcam="git commit -am \"Modified\ files.\""
 alias gpom='git push origin master'
 alias gqom='git pull origin master'
 
